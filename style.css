@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(47, 48, 48,.95);
+    font-style: inherit;
+    font-size: 15px;
+    color: #ebeced;
+    padding: 11px 180px 11px 180px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+.search-icon .search{
+    width: 17px;
+    height: 17px;
+}
+.navbar img{
+    width: 22px;
+    height: 21px;
+}
+.pandemic{
+    background-color: #1c7be8;
+    text-align: center;
+    padding: 14.5px 14.5px;
+}
+.pandemic a{
+    text-decoration: none;
+    font-family: Arial;
+    font-style: inherit;
+    font-size: 15px;
+    color: #f5f6f7;
+}
+.shop{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 15px 15px;
+}
+.shop p a{
+    text-decoration: none;
+}
+
+.text-shop{
+    color: blue;
+}
+.body-watch{
+    background-image: url("images/iwatch6.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: cornsilk;
+    padding-top: 40px;
+    text-align: center;
+    height: 50rem;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 39px;
+}
+h1 img{
+    height: 40px;
+}
+.series6{
+    font-family: 'Roboto', sans-serif;
+    color: #d10016;
+    letter-spacing: 3px;
+    padding-left: 5px;
+}
+.body-watch p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 50px;
+    padding-top: 15px;
+}
