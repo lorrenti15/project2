@@ -11,7 +11,7 @@ body{
     font-style: inherit;
     font-size: 15px;
     color: #ebeced;
-    padding: 11px 180px 11px 180px;
+    padding: 11px 450px 11px 450px;
 }
 .nav-list{
     display: flex;
@@ -52,13 +52,18 @@ body{
     color: blue;
 }
 .body-watch{
-    background-image: url("images/iwatch6.jpg");
+    background-color: #000000;
     background-repeat: no-repeat;
     background-size: 100%;
     color: cornsilk;
     padding-top: 40px;
     text-align: center;
-    height: 50rem;
+    height: 33.7rem;
+
+}
+.body-watch img{
+    padding-top: 20px;
+    height: 60%;
 }
 h1{
     font-family: 'Roboto', sans-serif;
@@ -73,11 +78,49 @@ h1 img{
     font-family: 'Roboto', sans-serif;
     color: #d10016;
     letter-spacing: 3px;
-    padding-left: 5px;
+    padding-left: 17px;
 }
 .body-watch p{
     font-family: 'Roboto', sans-serif;
     font-size: 28px;
     font-weight: 50px;
     padding-top: 15px;
+}
+.body-watch .option-buy{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.body-watch .option-buy a{
+    padding-right: 30px;
+    color: #2071f5;
+    text-decoration: none;
+}
+.body-ipad{
+    background-color: #f1eff2;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    padding-top: 53px;
+    height: 50rem;
+}
+.body-ipad .october-text{
+    font-size: 13px;
+    color: firebrick;
+}
+.body-ipad h1{
+    color: #1f1e1e;
+    font-size: 50px;
+    font-weight: 1500;
+    letter-spacing: normal;
+}
+.body-ipad .three-text{
+    font-size: 30px;
+    font-weight: 400;
+    padding: 0px 700px 20px 700px;
+}
+.body-ipad a{
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 22px;
+    color: #2071f5;
 }
