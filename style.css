@@ -124,3 +124,34 @@ h1 img{
     font-size: 22px;
     color: #2071f5;
 }
+.body-ipad img{
+    width: 850px;
+    height: 300px;
+    padding-top: 30px;
+}
+.body-sixbox{
+    display: flex;
+    height: 40rem;
+}
+.body-sixbox .iwatch{
+    background-color: #f0f0f2;
+    flex: 1;
+    align-items: center;
+    border: 1px solid black;
+}
+.body-sixbox .iwatch img{
+    padding-left: 300px;
+    padding-top: 300px;
+
+}
+.body-sixbox .ione{
+    background-color: #f0f0f2;
+    flex: 1;
+    align-items: center;
+    border: 1px solid black;
+}
+.body-sixbox .ione img{
+    height: 300px;
+    padding-top: 300px;
+    padding-left: 300px;
+}
