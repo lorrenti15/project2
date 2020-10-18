@@ -39,21 +39,121 @@ body{
 .text-shop{
     color: blue;
 }
-.apple12{
+.apple12-pro{
     align-items: center;
     font-family: 'Roboto', sans-serif;
-    height: 50rem;
+    height: 50%;
     background-color: #000000;
+    text-align: center;
 }
-.apple12 h1{
+.apple12-pro h1{
     color: white;
     padding-top: 50px;
     text-align: center;
     font-size: 50px;
+    font-weight: bolder;
+}
+.apple12-pro p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding-top: 8px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.apple12-pro a{
+    color: #2b7cff;
+    text-decoration: none;
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.apple12-pro img{
+    padding: 2% 10% 0% 30%;
+} 
+.specification{
+    display: flex;
+    padding-left: 40%;
+    align-items: center;
+}
+.specs, .specs2{
+    padding: 30px;
+}
+.specs h1{
+    color: white;
+    font-size: 22px;
+}
+.specs p{
+    color: gray;
+    font-size: 17px;
+}
+.specs2 h1{
+    color: white;
+    font-size: 22px;
+}
+.specs2 p{
+    color: gray;
+    font-size: 17px;
 }
 
 
 
+
+.apple12{
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    height: 50%;
+    background-color: white;
+    text-align: center;
+}
+.apple12 h1{
+    color: black;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.apple12 p{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    padding-top: 8px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.apple12 a{
+    color: #2b7cff;
+    text-decoration: none;
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.specification{
+    display: flex;
+    padding-left: 40%;
+    align-items: center;
+}
+.specs, .specs2{
+    padding: 30px;
+}
+.specs h1{
+    color: black;
+    font-size: 22px;
+}
+.specs p{
+    color: gray;
+    font-size: 17px;
+}
+.specs2 h1{
+    color: black;
+    font-size: 22px;
+}
+.specs2 p{
+    color: gray;
+    font-size: 17px;
+}
 
 
 .body-ipad{
@@ -63,10 +163,6 @@ body{
     text-align: center;
     padding-top: 53px;
     height: 50rem;
-}
-.body-ipad .october-text{
-    font-size: 13px;
-    color: firebrick;
 }
 .body-ipad h1{
     color: #1f1e1e;
