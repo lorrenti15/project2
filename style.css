@@ -98,8 +98,6 @@ body{
 }
 
 
-
-
 .apple12{
     align-items: center;
     font-family: 'Roboto', sans-serif;
@@ -157,12 +155,12 @@ body{
 
 
 .body-ipad{
-    background-color: #f1eff2;
+    background-color: #fbfbfd;
     background-repeat: no-repeat;
     background-size: 100%;
     text-align: center;
     padding-top: 53px;
-    height: 50rem;
+    height: 37rem;
 }
 .body-ipad h1{
     color: #1f1e1e;
@@ -186,29 +184,198 @@ body{
     height: 300px;
     padding-top: 30px;
 }
-.body-sixbox{
-    display: flex;
-    height: 40rem;
-}
-.body-sixbox .iwatch{
-    background-color: #f0f0f2;
-    flex: 1;
-    align-items: center;
-    border: 1px solid black;
-}
-.body-sixbox .iwatch img{
-    padding-left: 300px;
-    padding-top: 300px;
 
-}
-.body-sixbox .ione{
-    background-color: #f0f0f2;
-    flex: 1;
+.column-box{
+    display: flex;
     align-items: center;
-    border: 1px solid black;
+    height: 100%;
+    width: 100%;
 }
-.body-sixbox .ione img{
+.apple-one{
+    align-content: center;
+    text-align: center;
+    flex: 1;
+    background-color: #fbfbfd;
+    height: 35rem;
+}
+.apple-one img{
     height: 300px;
-    padding-top: 300px;
-    padding-left: 300px;
+}
+.apple-one h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.apple-one h1 img{
+    height: 30px;
+    align-content: center;
+}
+.apple-one p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.apple-one a{
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    align-content: center;
+    font-size: 15px;
+    color: #2984bf;
+    text-decoration: none;
+    font-weight: bold;
+}
+.apple-watch{
+    background-color: black;
+    flex: 1;
+    align-content: center;
+    text-align: center;
+    height: 35rem;
+}
+.apple-watch h1{
+    color: white;
+}
+.apple-watch h1 img{
+    height: 30px;
+    align-content: center;
+}
+.apple-watch p{
+    color: white;
+}
+.apple-watch .series{
+    color: #c51d28;
+    font-weight: bold;
+}
+.apple-watch img{
+    height: 350px;
+}
+.apple-watch a{
+    color: #2984bf;
+    text-decoration: none;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+.column-box2{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.column-box2{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.apple-watch-circle{
+    align-content: center;
+    text-align: center;
+    flex: 1;
+    background-color: #fbfbfd;
+    height: 35rem;
+}
+.apple-watch-circle img{
+    height: 350px;
+}
+.apple-watch-circle h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.apple-watch-circle h1 img{
+    height: 35px;
+    align-content: center;
+}
+.apple-watch-circle p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.apple-watch-circle a{
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    align-content: center;
+    font-size: 15px;
+    color: #2984bf;
+    text-decoration: none;
+    padding-left: 30px;
+    font-weight: bold;
+}
+.apple-watch-circle .se{
+    font-family: 'Work Sans', sans-serif;
+    color: #c51d28;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.apple-bundle{
+    background-color: #f1f1f3;
+    flex: 1;
+    align-content: center;
+    text-align: center;
+    height: 35rem;
+}
+.apple-bundle h1{
+    color: #1d1d1f;
+}
+.apple-bundle h1 img{
+    height: 30px;
+    align-content: center;
+}
+.apple-bundle p{
+    color: white;
+}
+.apple-bundle .series{
+    color: #c51d28;
+    font-weight: bold;
+}
+.apple-bundle img{
+    height: 350px;
+}
+.apple-bundle a{
+    color: #2984bf;
+    text-decoration: none;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+
+.column-box3{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.apple-music{
+    align-content: center;
+    text-align: center;
+    flex: 1;
+    background-color: #ececec;
+    height: 35rem;
+}
+.apple-music img{
+    height: 350px;
+}
+.apple-music h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.apple-music p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.apple-music a{
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    align-content: center;
+    font-size: 15px;
+    color: #2984bf;
+    text-decoration: none;
+    padding-left: 30px;
+    font-weight: bold;
 }
